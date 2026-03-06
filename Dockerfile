@@ -1,4 +1,4 @@
-FROM postgres:17.9-bullseye
+FROM postgres:17-bullseye
 
 RUN apt-get update && apt-get install -y \
     python3 \
